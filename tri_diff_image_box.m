@@ -11,7 +11,7 @@ function [] = TriDiffImage(option)
 % Date Created: 12 Jun 2014
 % Last modified: 12 Jun 2014
 
-	videoread = vision.VideoFileReader('camera2L.avi'); % default video
+	videoread = vision.VideoFileReader('camera2.avi'); % default video
 	videoplay = vision.VideoPlayer; % Play the transformed video
 
 	if nargin < 1
